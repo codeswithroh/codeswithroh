@@ -11,6 +11,7 @@
 
 <br>
 <br>
+[![trophy](https://github-profile-trophy.vercel.app/?username=codeswithroh&theme=dracula)]
 
 Hi, I'm [Rohit Purkait](https://codeswithroh.github.io), a lazy self-taught Full-Stack developer and a Data-Science enthusiast from India. I am a self-proclaimed creative person and I hate everything about static websites. So, whatever work I do, I love to add some animations in it. 
 I am also an open-source enthusiast. I think open-source is one of the best gifts that the coders have got. I also try to provide others with as much help as possible.
