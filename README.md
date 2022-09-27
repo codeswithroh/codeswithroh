@@ -6,12 +6,12 @@ I am also an open-source enthusiast. I think open-source is one of the best gift
 
 <a href="https://www.buymeacoffee.com/codeswithroh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-[![Rohit's GitHub stats]](https://github-readme-stats.vercel.app/api?username=codeswithroh&show_icons=true&theme=radical)
+![Rohit's GitHub stats](https://github-readme-stats.vercel.app/api?username=codeswithroh&show_icons=true&theme=radical)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=codeswithroh&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 
 
-[![Your Repository's Stats]](https://github-readme-stats.vercel.app/api/top-langs/?username=codeswithroh&theme=radical)
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=codeswithroh&theme=radical)
 
 
 
