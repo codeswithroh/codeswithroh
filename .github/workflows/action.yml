@@ -16,4 +16,5 @@ jobs:
           bun-version: latest
 
       - name: Update Bento
-        run: bun ./getNewBento.ts
+        run: |
+          bun run getNewBento.ts
