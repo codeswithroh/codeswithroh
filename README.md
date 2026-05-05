@@ -1,6 +1,6 @@
 # Hi, I'm Rohit 👋
 
-🤖 **Developer Relations Engineer @ BlokCapital** | 🚀 **AI Engineer & Founding Engineer** | 🎓 **IIT Madras BS Data Science (9.2 GPA)**
+🤖 **Developer Relations Engineer @ BlokCapital** | 🚀 **AI Engineer & Founding Engineer**
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -32,7 +32,7 @@
 ## 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=codeswithroh&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-![Streak Stats](https://nirzak-streak-stats.vercel.app/?user=codeswithroh&theme=dark&hide_border=false)
+![Streak Stats](https://streak-stats.demolab.com/?user=codeswithroh&theme=dark&hide_border=false)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=codeswithroh&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🔗 Connect
