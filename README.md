@@ -31,9 +31,13 @@
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=codeswithroh&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-![Streak Stats](https://streak-stats.demolab.com/?user=codeswithroh&theme=dark&hide_border=false)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=codeswithroh&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=codeswithroh&theme=github_dark)
+
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=codeswithroh&theme=github_dark)
+![Streak](https://streak-stats.demolab.com/?user=codeswithroh&theme=dark&hide_border=false)
+
+![Top Languages by Commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=codeswithroh&theme=github_dark)
+![Top Languages by Repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=codeswithroh&theme=github_dark)
 
 ## 🔗 Connect
 
