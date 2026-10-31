@@ -1,7 +1,4 @@
-<a href="https://www.codeswithroh.online"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="fight/readme-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="fight/readme-light.svg">
-  <img src="fight/readme-light.svg" width="100%" alt="Hi, I'm Rohit. Dear hiring manager (crossed out). This is a README, not a cover letter. Growth engineer, AI engineer, social media strategist. 20+ hackathons won. 509 stars on Tastemaker. An AI-slop card attacks the page, a stickman tears through it, beats the card and puts every letter back. Anyway. Hire me."></picture></a>
+<a href="https://www.codeswithroh.online"><img src="fight/readme.svg" width="100%" alt="Hi, I'm Rohit. Dear hiring manager (crossed out). This is a README, not a cover letter. Growth engineer, AI engineer, social media strategist. 20+ hackathons won. 509 stars on Tastemaker. An AI-slop card attacks the page, a stickman tears through it, beats the card and puts every letter back. Anyway. Hire me."></a>
 
 <p align="center">
   <a href="https://www.codeswithroh.online"><b>codeswithroh.online</b></a> ·
