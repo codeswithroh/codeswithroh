@@ -159,8 +159,8 @@ while t < T:
         elif l.free:
             l.vy += 900 * DT; l.x += l.vx * DT; l.y += l.vy * DT; l.r += l.vr * DT
             if l.x < 6 or l.x > W - 6: l.vx *= -.5; l.x = min(max(l.x, 6), W - 6)
-            if l.y > FLOOR - 5:
-                l.y = FLOOR - 5; l.vy *= -.28; l.vx *= .72; l.vr *= .5
+            if l.y > FLOOR - l.size * .36:
+                l.y = FLOOR - l.size * .36; l.vy *= -.28; l.vx *= .72; l.vr *= .5
                 if abs(l.vy) < 26: l.vy = 0; l.vr = 0; l.r = round(l.r / math.pi) * math.pi
             if t < 19 and math.hypot(l.x - foot[0], l.y - foot[1]) < 13 and abs(l.vy) < 60:  # feet scuff the pile
                 l.vx += sf * 170; l.vy -= 230; l.vr += sf * 11
