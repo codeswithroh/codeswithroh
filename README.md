@@ -1,4 +1,4 @@
-<a href="https://www.codeswithroh.online"><img src="assets/banner.png" alt="Rohit Purkait, AI engineer and developer advocate"></a>
+<a href="https://www.codeswithroh.online"><img src="assets/banner.png" alt="Rohit Purkait, growth engineer, AI engineer and social media strategist"></a>
 
 <p align="center">
   <a href="https://www.codeswithroh.online"><b>codeswithroh.online</b></a> ·
@@ -8,11 +8,11 @@
   <a href="mailto:rohitpurkait001@gmail.com">Email</a>
 </p>
 
-I build agent tools, on-device AI and onchain apps, then show other developers how they work. By day I'm a Developer Relations Engineer at BlokCapital.
+I build the product, then I get it seen. Growth engineer, AI engineer and social media strategist with 20+ hackathon wins. By day I'm a Developer Relations Engineer at BlokCapital.
 
-| **509** | **65** | **18** | **3** |
+| **20+** | **509** | **65** | **18** |
 |:---:|:---:|:---:|:---:|
-| stars on [Tastemaker](https://github.com/codeswithroh/tastemaker) | public repos in 2026 | chains shipped on | hackathon awards |
+| hackathons won | stars on [Tastemaker](https://github.com/codeswithroh/tastemaker) | public repos in 2026 | chains shipped on |
 
 ## What I believe
 
@@ -127,7 +127,15 @@ The best AI for most people also runs on their own device, in their own language
 
 </details>
 
+## Growth
+
+- [Tastemaker](https://github.com/codeswithroh/tastemaker): 0 to 509 stars in under four months
+- [cofoundr](https://www.codeswithroh.online/projects/cofoundr): 500+ organic users with zero paid acquisition
+- [Six videos](https://www.codeswithroh.online/proof-of-work) scripted, filmed, edited and posted solo
+
 ## Recognition
+
+20+ hackathons won, including:
 
 - **EthGlobal 2025:** winner
 - **PL_Genesis (Protocol Labs):** winner with [Yoldr](https://www.codeswithroh.online/projects/yoldr)
@@ -136,6 +144,6 @@ The best AI for most people also runs on their own device, in their own language
 
 ## Stack
 
-TypeScript · Python · Solidity · Cadence · Rust · Next.js · NestJS · FastAPI · Claude · MCP · Gemma · viem · Foundry
+Growth engineering · Social strategy · Short video · SEO · TypeScript · Python · Solidity · Cadence · Rust · Next.js · NestJS · FastAPI · Claude · MCP · Gemma · viem · Foundry
 
-Building something with AI or crypto? [Say hi](mailto:rohitpurkait001@gmail.com).
+Need someone who builds it and sells it? [Say hi](mailto:rohitpurkait001@gmail.com).
