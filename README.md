@@ -1,58 +1,141 @@
-# Hi, I'm Rohit 👋
+<a href="https://www.codeswithroh.online"><img src="assets/banner.png" alt="Rohit Purkait, AI engineer and developer advocate"></a>
 
-🤖 **Developer Relations Engineer @ BlokCapital** | 🚀 **AI Engineer & Founding Engineer**
+<p align="center">
+  <a href="https://www.codeswithroh.online"><b>codeswithroh.online</b></a> ·
+  <a href="https://x.com/codeswithroh">X</a> ·
+  <a href="https://linkedin.com/in/rohitpurkait">LinkedIn</a> ·
+  <a href="https://youtube.com/@rohitpurkait4046">YouTube</a> ·
+  <a href="mailto:rohitpurkait001@gmail.com">Email</a>
+</p>
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)
-![MCP](https://img.shields.io/badge/-MCP-121212?style=flat-square&logo=anthropic&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+I build agent tools, on-device AI and onchain apps, then show other developers how they work. By day I'm a Developer Relations Engineer at BlokCapital.
 
-> Building at the intersection of AI agents, developer experience, and Web3. Currently owning DevRel end-to-end at BlokCapital — docs, SDK guides, workshops, and ecosystem tooling.
+| **509** | **65** | **18** | **3** |
+|:---:|:---:|:---:|:---:|
+| stars on [Tastemaker](https://github.com/codeswithroh/tastemaker) | public repos in 2026 | chains shipped on | hackathon awards |
 
-## 🚀 Current Projects
+## What I believe
 
-- 🤝 **[cofoundr](https://cofoundrs.fun)** – AI co-founder matching agent. 4-stage LLM pipeline over 700M profiles. 500+ organic users, $30 MRR, zero paid acquisition. MCP server shipping Q3 2026. YC S26 applicant.
-- 💳 **PayMesh** – x402 payment infrastructure for autonomous AI agents. One-line middleware monetizes any API with HTTP 402 micro-payments on Base. ENS-based merchant identity + agent-discovery marketplace.
-- 🛡️ **[Yoldr](https://yoldr.vercel.app)** – Principal-protected DeFi vaults on Flow. Zero-coupon bond math locks principal on-chain; only accrued yield funds leveraged positions. Won **PL_Genesis hackathon** by Protocol Labs.
-- 🖥️ **[InitCode](https://initcode-eta.vercel.app)** – Browser-based IDE for CosmWasm smart contract development on Initia. Monaco editor, AI ghost-text completions, one-click testnet deployment. No local toolchain needed.
-- 🔒 **CrossShield** – Principal-protected DeFi vaults on Polkadot Hub with cross-chain RWA exposure (Gold, BTC, Real Estate). AI-driven transaction risk interception, XCM routing, ink!/PVM risk contract.
-- 🔍 **[FoundrProof](https://founderfluencer.vercel.app)** – AI-powered X profile analyzer. Scores founder potential, assigns archetype, generates a roast, suggests startup ideas, and produces a shareable founder card.
-- 💸 **ENSPay** – Receiver-controlled crypto payments via ENS. Payers enter a `.eth` name; ENSPay resolves token, chain, and routing preferences automatically. Uniswap V3 swap + Across bridge + stealth mode.
-- 📋 **Briefd** – AI scoping tool for freelancers. Upload a client meeting recording → get a polished scope doc, PRD, and wireframe outline in minutes. Whisper + Gemini + Claude pipeline.
-- ⚰️ **[Will.eth](https://willeth-somnia-reactive.vercel.app)** – Reactive dead-man's-switch inheritance protocol on Somnia. Beneficiaries watch payouts land in real-time the moment the will executes — no polling, no refresh.
-- ⚡ **SlashFill** – Chrome Extension (Manifest V3). Type `/commands` in any text field to instantly insert saved snippets. Fully offline, syncs across devices via `chrome.storage`.
+**Software should check its own work.** Models are good enough to act now, so the useful question is who verifies them.
 
-## 📊 GitHub Stats
+- In [Pakka](https://www.codeswithroh.online/projects/pakka) and [Baad Mein](https://www.codeswithroh.online/projects/baad-mein), the model reads and code verifies.
+- In [MergePay](https://www.codeswithroh.online/projects/mergepay) and [Handshake](https://www.codeswithroh.online/projects/handshake), a contract checks the work before money moves.
+- In [Bhoot](https://www.codeswithroh.online/projects/bhoot), git vouches for every claim.
 
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=codeswithroh&theme=github_dark)
+The best AI for most people also runs on their own device, in their own language. [Chithi](https://www.codeswithroh.online/projects/chithi) exists because my mom reads Bengali, not English.
 
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=codeswithroh&theme=github_dark)
-![Streak](https://streak-stats.demolab.com/?user=codeswithroh&theme=dark&hide_border=false)
+## Start here
 
-![Top Languages by Commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=codeswithroh&theme=github_dark)
-![Top Languages by Repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=codeswithroh&theme=github_dark)
+<table>
+<tr>
+<td width="33%" valign="top"><a href="https://www.codeswithroh.online/projects/tastemaker"><img src="assets/tastemaker.jpg" alt="Tastemaker screenshot"></a><br><b>Tastemaker</b><br><sub>Stops coding agents shipping the same UI. 509 stars</sub></td>
+<td width="33%" valign="top"><a href="https://www.codeswithroh.online/projects/pitch-video"><img src="assets/pitch-video.jpg" alt="Pitch Video screenshot"></a><br><b>Pitch Video</b><br><sub>One talking-head take in, finished demo video out</sub></td>
+<td width="33%" valign="top"><a href="https://www.codeswithroh.online/projects/mergepay"><img src="assets/mergepay.jpg" alt="MergePay screenshot"></a><br><b>MergePay</b><br><sub>USDC bounties paid on merge. Live on Arc mainnet</sub></td>
+</tr>
+<tr>
+<td width="33%" valign="top"><a href="https://www.codeswithroh.online/projects/handshake"><img src="assets/handshake.jpg" alt="Handshake screenshot"></a><br><b>Handshake</b><br><sub>Agents hire agents. USDC moves when the work checks out</sub></td>
+<td width="33%" valign="top"><a href="https://www.codeswithroh.online/projects/chithi"><img src="assets/chithi.jpg" alt="Chithi screenshot"></a><br><b>Chithi</b><br><sub>Reads bills aloud for my family, in 22 Indian languages</sub></td>
+<td width="33%" valign="top"><a href="https://www.codeswithroh.online/projects/nightfall"><img src="assets/nightfall.jpg" alt="Nightfall screenshot"></a><br><b>Nightfall</b><br><sub>Battle royale where even the server can't see you</sub></td>
+</tr>
+</table>
 
-## 🔗 Connect
+## Everything, by what it does
 
-[![X](https://img.shields.io/badge/-@codeswithroh-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/codeswithroh)
-[![LinkedIn](https://img.shields.io/badge/-rohitpurkait-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rohitpurkait)
-[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/codeswithroh)
-[![Email](https://img.shields.io/badge/-rohitpurkait001@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rohitpurkait001@gmail.com)
-[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@rohitpurkait4046)
+<details open>
+<summary><b>Agent tools</b> (7)</summary>
 
----
+| Project | What it does | Links |
+|---|---|---|
+| [Tastemaker](https://www.codeswithroh.online/projects/tastemaker) | A skill that stops coding agents shipping the same indigo gradient. | [live](https://tastemaker-skill.online) · [code](https://github.com/codeswithroh/tastemaker) |
+| [Pitch Video](https://www.codeswithroh.online/projects/pitch-video) | Record yourself reading the pitch. Your agent does the edit. | [live](https://pitch-video-studio.vercel.app) · [code](https://github.com/codeswithroh/pitch-video) |
+| [TaskTape Replay](https://www.codeswithroh.online/projects/tasktape) | Show your work once. Replay it safely. | [live](https://tasktape-replay.vercel.app) · [code](https://github.com/codeswithroh/tasktape) |
+| [TraceGate](https://www.codeswithroh.online/projects/tracegate) | If you could not debug the agent in production, it does not ship. | [live](https://tracegate.vercel.app) · [code](https://github.com/CodeswithrohStudio/TraceGate) |
+| [InitCode](https://www.codeswithroh.online/projects/initcode) | Write and deploy CosmWasm contracts from a browser tab. | [live](https://initcode-eta.vercel.app) · [code](https://github.com/CodeswithrohStudio/initcode) |
+| [Ideagram](https://www.codeswithroh.online/projects/ideagram) | One concept in, one recolored illustration out. | [code](https://github.com/codeswithroh/ideagram) |
+| [SlashFill](https://www.codeswithroh.online/projects/slashfill) | Type /email anywhere and your address appears. | [code](https://github.com/codeswithroh/SlashFill) |
 
-### 🏆 Recognition
+</details>
 
-- 🥇 **EthGlobal 2025** — Global Ethereum hackathon winner across hundreds of international teams
-- 🥇 **PL_Genesis: Frontiers of Collaboration** — Protocol Labs hackathon winner, built Yoldr
-- 🥇 **SEBI National Hackathon** — Jury Recommendation Award, led team of 20
-- 🎙️ **Postman Student Leader & Expert** | Developer Ambassador at HelaLabs & Postman
-- 📜 Certified MERN Stack Developer | IBM Data Visualization Using Python
+<details>
+<summary><b>On-device AI</b> (5)</summary>
+
+| Project | What it does | Links |
+|---|---|---|
+| [Chithi](https://www.codeswithroh.online/projects/chithi) | A pocket reader for people who read Bengali but not English. | [live](https://chithi-teal.vercel.app) · [code](https://github.com/codeswithroh/chithi) |
+| [Baad Mein](https://www.codeswithroh.online/projects/baad-mein) | One morning card from the chat you keep with yourself. | [live](https://baad-mein.vercel.app) · [code](https://github.com/codeswithroh/baad-mein) |
+| [Pakka](https://www.codeswithroh.online/projects/pakka) | A home baker’s WhatsApp orders, turned into tomorrow’s bake sheet. | [live](https://pakka-gamma.vercel.app) · [code](https://github.com/codeswithroh/pakka) |
+| [Drift](https://www.codeswithroh.online/projects/drift) | A walking app that wants your phone in your pocket. | [live](https://drift-three-nu.vercel.app) · [code](https://github.com/codeswithroh/drift) |
+| [Bhoot](https://www.codeswithroh.online/projects/bhoot) | The people who left your repo, and the code of theirs that still runs. | [live](https://bhoot-graveyard.vercel.app) · [code](https://github.com/codeswithroh/bhoot) |
+
+</details>
+
+<details>
+<summary><b>AI products</b> (5)</summary>
+
+| Project | What it does | Links |
+|---|---|---|
+| [cofoundr](https://www.codeswithroh.online/projects/cofoundr) | Find a co-founder in 60 seconds. | [live](https://cofoundrs.fun) |
+| [Overturn](https://www.codeswithroh.online/projects/overturn) | Your insurer said no. Write back. | [live](https://overturn-eight.vercel.app) · [code](https://github.com/codeswithroh/overturn) |
+| [FoundrProof](https://www.codeswithroh.online/projects/foundrproof) | Paste an X handle. Get a founder score and a roast. | [live](https://foundrproof.vercel.app) · [code](https://github.com/codeswithroh/foundrproof) |
+| [Briefd](https://www.codeswithroh.online/projects/briefd) | Upload a client call. Get the scope doc. |  |
+| [StreamReach](https://www.codeswithroh.online/projects/streamreach) | Citizen stream checks that reach a GP inside the EHR. | [live](https://oneaquahealth.vercel.app) · [code](https://github.com/codeswithroh/streamreach) |
+
+</details>
+
+<details>
+<summary><b>Agent payments</b> (6)</summary>
+
+| Project | What it does | Links |
+|---|---|---|
+| [MergePay](https://www.codeswithroh.online/projects/mergepay) | Every merged pull request gets paid, with no middleman. | [live](https://mergepay.fun) · [code](https://github.com/codeswithroh/mergepay) |
+| [Handshake](https://www.codeswithroh.online/projects/handshake) | Agents hire agents. USDC moves only when the work checks out. | [live](https://handshake-agents.vercel.app) · [code](https://github.com/codeswithroh/handshake) |
+| [Longtail](https://www.codeswithroh.online/projects/longtail) | Liquidity for the prediction markets nobody quotes. | [live](https://longtail-rosy.vercel.app) · [code](https://github.com/codeswithroh/longtail) |
+| [PayMesh](https://www.codeswithroh.online/projects/paymesh) | One line of middleware monetizes any API. | [code](https://github.com/CodeswithrohStudio/paymesh) |
+| [CAPP](https://www.codeswithroh.online/projects/capp) | Scoped, revocable on-chain authority for AI agents. | [live](https://capp-protocol.vercel.app) · [code](https://github.com/codeswithroh/capp) |
+| [Klyro](https://www.codeswithroh.online/projects/klyro) | Out-predict the machine. Settled on-chain. | [live](https://playklyro.fun) · [code](https://github.com/codeswithroh/klyro) |
+
+</details>
+
+<details>
+<summary><b>DeFi and markets</b> (9)</summary>
+
+| Project | What it does | Links |
+|---|---|---|
+| [Hourglass](https://www.codeswithroh.online/projects/hourglass) | Buy an hour of GPU time as a token. | [live](https://hourglass-compute.vercel.app) · [code](https://github.com/codeswithroh/hourglass) |
+| [Reckon](https://www.codeswithroh.online/projects/reckon) | Stops the transaction before your wallet opens. | [code](https://github.com/codeswithroh/reckon) |
+| [Tape](https://www.codeswithroh.online/projects/tape-verified) | Copy trading where every return is proven on-chain. | [live](https://tape-verified.vercel.app) · [code](https://github.com/codeswithroh/tape-verified) |
+| [Sextant](https://www.codeswithroh.online/projects/sextant) | Finds a stock’s true price when the real market is closed. | [live](https://sextant-sigma.vercel.app) · [code](https://github.com/codeswithroh/sextant) |
+| [Yoldr](https://www.codeswithroh.online/projects/yoldr) | You only lose the yield. | [live](https://yoldr.vercel.app) · [code](https://github.com/CodeswithrohStudio/yoldr) |
+| [LumenShield](https://www.codeswithroh.online/projects/lumenshield) | Principal-protected FXRP and FAsset vaults. | [live](https://lumenshield.vercel.app) · [code](https://github.com/CodeswithrohStudio/lumenshield) |
+| [CrossShield](https://www.codeswithroh.online/projects/crossshield) | Gold, BTC and real estate exposure with principal locked. | [code](https://github.com/CodeswithrohStudio/crossshield) |
+| [ENSPay](https://www.codeswithroh.online/projects/enspay) | Pay a .eth name. The receiver’s settings do the rest. | [code](https://github.com/CodeswithrohStudio/enspay) |
+| [Will.eth](https://www.codeswithroh.online/projects/will-eth) | Beneficiaries watch the payout land in real time. | [live](https://willeth-somnia-reactive.vercel.app) · [code](https://github.com/CodeswithrohStudio/somnia-reactivity) |
+
+</details>
+
+<details>
+<summary><b>Privacy and proofs</b> (6)</summary>
+
+| Project | What it does | Links |
+|---|---|---|
+| [Hall Monitor](https://www.codeswithroh.online/projects/hall-monitor) | Catches trackers on kids’ sites and seals the record on-chain. | [live](https://hall-monitor.codeswithroh.workers.dev) · [code](https://github.com/codeswithroh/hall-monitor) |
+| [Nightfall](https://www.codeswithroh.online/projects/nightfall) | Fog of war where even the server cannot see you. | [live](https://nightfall-blitz.vercel.app) · [code](https://github.com/codeswithroh/nightfall) |
+| [Veyl](https://www.codeswithroh.online/projects/veyl) | Trade without your wallet becoming a target. | [live](https://veyl-tau.vercel.app) · [code](https://github.com/codeswithroh/veyl) |
+| [ShieldLink](https://www.codeswithroh.online/projects/shieldlink) | Pay a team without publishing the payroll. | [live](https://shieldlink-kappa.vercel.app) · [code](https://github.com/codeswithroh/shieldlink) |
+| [ClaimProof](https://www.codeswithroh.online/projects/claim-proof) | Collect the payout without revealing the oracle reading. | [code](https://github.com/codeswithroh/claim-proof) |
+| [FHE Liar’s Dice](https://www.codeswithroh.online/projects/fhe-liars-dice) | Not even the contract can see the dice. | [code](https://github.com/codeswithroh/fhe-liars-dice) |
+
+</details>
+
+## Recognition
+
+- **EthGlobal 2025:** winner
+- **PL_Genesis (Protocol Labs):** winner with [Yoldr](https://www.codeswithroh.online/projects/yoldr)
+- **SEBI National Hackathon:** Jury Recommendation Award, led a team of 20
+- **Postman:** Student Leader and Expert
+
+## Stack
+
+TypeScript · Python · Solidity · Cadence · Rust · Next.js · NestJS · FastAPI · Claude · MCP · Gemma · viem · Foundry
+
+Building something with AI or crypto? [Say hi](mailto:rohitpurkait001@gmail.com).
