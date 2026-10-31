@@ -2,7 +2,7 @@
 """Generates the animated README header. Everything is native SVG animation baked
 ahead of time, so GitHub can render it inside an <img> with no JavaScript.
 Usage: python3 make_readme.py <dir with zodiak-italic-var.woff2 and general-sans-normal-var.woff2>
-Output: readme-dark.svg, readme-light.svg next to this file."""
+Output: readme.svg next to this file. It carries its own paper background so it reads on GitHub light and dark."""
 import math, pathlib, random, sys
 from fontTools.ttLib import TTFont
 from fontTools.varLib import instancer
@@ -13,7 +13,7 @@ random.seed(7)
 FONTS = pathlib.Path(sys.argv[1]); HERE = pathlib.Path(__file__).parent
 W, H, T = 830, 310, 26.0
 FLOOR = 298; HIP = FLOOR - 29
-TOMATO, PURPLE = '#D9502A', '#8B5CF6'
+TOMATO, PURPLE = '#C8401A', '#7C3AED'
 nt = lambda v: f'{v:.1f}'.rstrip('0').rstrip('.')
 
 
@@ -221,11 +221,11 @@ def build(ink, bg, name):
     shake = [(0, '0 0')]
     for ht, amp in ((9.0, 7), (12.5, 3), (13.42, 5), (14.44, 7), (16.95, 8)):
         shake += [(ht - .01, '0 0')] + [(ht + i * .05, f'{amp * (-1) ** i * (1 - i / 6):.1f} {amp * .6 * (-1) ** (i + 1) * (1 - i / 6):.1f}') for i in range(6)] + [(ht + .3, '0 0')]
-    s += '<g>' + tr(shake)
+    s += f'<rect width="{W}" height="{H}" rx="18" fill="#F7F2E8"/><g>' + tr(shake)
     # the tear in the page
     pts = [(-46, -6), (-30, -24), (-12, -16), (6, -30), (24, -18), (44, -22), (38, 0), (50, 16), (22, 18), (4, 28), (-20, 20), (-38, 24)]
     hole = ' '.join(f'{x},{y}' for x, y in pts)
-    s += f'<g transform="translate({HOLE[0]} {HOLE[1] + 10})"><g>' + tr([(0, 0), (8.72, 0), (9.05, 1.15), (9.3, 1), (25.3, 1), (25.65, 0)], 'scale') + f'<polygon points="{hole}" fill="{"#010409" if bg == "dark" else "#1f2328"}" stroke="{TOMATO}" stroke-width="1.5"/></g>'
+    s += f'<g transform="translate({HOLE[0]} {HOLE[1] + 10})"><g>' + tr([(0, 0), (8.72, 0), (9.05, 1.15), (9.3, 1), (25.3, 1), (25.65, 0)], 'scale') + f'<polygon points="{hole}" fill="#201C17" stroke="{TOMATO}" stroke-width="1.5"/></g>'
     for a in (-160, -120, -60, -20, 30, 150):
         x, y = 44 * math.cos(math.radians(a)), 30 * math.sin(math.radians(a)); xe, ye = x * 2.1, y * 2.2
         s += f'<line x1="{nt(x)}" y1="{nt(y)}" x2="{nt(xe)}" y2="{nt(ye)}" stroke="{ink}" stroke-width="1" opacity="0">' + anim('opacity', [(0, 0), (8.7, 0), (9, .5), (25.3, .5), (25.6, 0)]) + '</line>'
@@ -269,6 +269,5 @@ def build(ink, bg, name):
     s += '</g></svg>'
     (HERE / name).write_text(s); print(name, len(s) // 1024, 'KB')
 
-bg_fill = lambda bg: '#0d1117' if bg == 'dark' else '#ffffff'
-build('#e6edf3', 'dark', 'readme-dark.svg')
-build('#1f2328', 'light', 'readme-light.svg')
+bg_fill = lambda bg: '#F7F2E8'
+build('#201C17', 'paper', 'readme.svg')
